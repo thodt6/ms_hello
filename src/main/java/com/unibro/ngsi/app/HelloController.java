@@ -19,6 +19,6 @@ public class HelloController {
 
     @GetMapping("/api/hello")
     public ResponseEntity<String> hello() {
-        return new ResponseEntity<>("Hello world", HttpStatus.OK);
+        return new ResponseEntity<>("Hello world v1", HttpStatus.OK);
     }
 }
